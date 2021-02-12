@@ -1,5 +1,5 @@
 import whois
-dominio = "leveltwo.com.br"
+dominio = "IP ALVO"
 consulta_whois = whois.whois(dominio)
 
 #print (consulta_whois.email)
