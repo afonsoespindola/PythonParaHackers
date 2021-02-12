@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from  scapy.all import *
 #host = raw_input("ALVO: ")
-pacote_ip_alvo = IP(dst = "191.243.8.88")
+pacote_ip_alvo = IP(dst = "IP ALVO")
 pacote_tcp = TCP(dport=portas, flags="S")
 pacote = pacote_ip_alvo/pacote_tcp
 ans, unans = sr(pacote, inter=0.1, timeout=1)
