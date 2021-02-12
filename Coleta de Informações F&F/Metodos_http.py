@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import requests
-host = "http://laboratoriohacker.com.br/"
+host = "SEU ALVO"
 metodos = ["GET", "POST", "OPTIONS", "PUT", "DELETE", "TRACE", "CONNECT", "HEAD", "PATCH"]
 for metodo in metodos:
     resposta = requests.request(metodo, host)
