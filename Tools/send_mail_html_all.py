@@ -1,6 +1,6 @@
 import smtplib
 import email.message
-server = smtplib.SMTP('smtp.hostinger.com.br:587')
+server = smtplib.SMTP('smtp.SEUHOST.com.br:587')
  
 email_content = """
 
