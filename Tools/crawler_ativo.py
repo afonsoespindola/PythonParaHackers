@@ -1,7 +1,7 @@
 from Queue import Queue
 import threading
 import requests
-site = "http://www.bancocn.com"
+site = "http://SEUALVO"
 lock = threading.Lock()
 
 def brute_force():
