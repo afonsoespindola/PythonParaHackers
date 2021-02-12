@@ -1,7 +1,7 @@
 import hashlib
 import  os
 
-diretorio= "C:\Users\T-Gamer\Downloads\TESTERM"
+diretorio= "C:\Users\USER"
 
 for files in os.listdir(diretorio):
     os.chdir(diretorio)
